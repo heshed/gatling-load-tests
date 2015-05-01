@@ -18,7 +18,7 @@ SBT is the de-facto build tool for Scala projects.
 ### SBT
 ```bash
 curl -s https://raw.githubusercontent.com/paulp/sbt-extras/master/sbt > /usr/local/bin/sbt \
-  && chmod 0755 /usr/local/bin/sbt
+  && chmod 755 /usr/local/bin/sbt
 ```
 
 ### Test Resources
