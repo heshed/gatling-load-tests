@@ -17,8 +17,8 @@ SBT is the de-facto build tool for Scala projects.
 ## Installation 
 ### SBT
 ```bash
-$ wget https://dl.bintray.com/sbt/rpm/sbt-0.13.7.rpm
-$ sudo yum install -y sbt-0.13.7.rpm
+curl -s https://raw.githubusercontent.com/paulp/sbt-extras/master/sbt > /usr/local/bin/sbt \
+  && chmod 0755 /usr/local/bin/sbt
 ```
 
 ### Test Resources
