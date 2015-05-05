@@ -5,7 +5,7 @@ enablePlugins(GatlingPlugin)
 scalaVersion := "2.11.6"
 
 scalacOptions := Seq(
-    "-encoding", "UTF-8", "-target:jvm-1.7", "-deprecation",
+    "-encoding", "UTF-8", "-target:jvm-1.8", "-deprecation",
     "-feature", "-unchecked", "-language:implicitConversions", "-language:postfixOps")
 
 javaOptions in Gatling := overrideDefaultJavaOptions("-Xms1G", "-Xmx12G", "-Djsse.enableSNIExtension=false", "-Dsun.net.inetaddr.ttl=0")
