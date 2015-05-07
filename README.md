@@ -21,7 +21,7 @@ $ curl -s https://raw.githubusercontent.com/paulp/sbt-extras/master/sbt \
 
 ### Test Resources
 ```bash 
-$ git clone git@github.com:BBC/gatling-load-tests.git; cd gatling-load-tests
+$ git clone git@github.com:BBC/gatling-load-tests.git && cd gatling-load-tests
 ```
 
 ## Execution
