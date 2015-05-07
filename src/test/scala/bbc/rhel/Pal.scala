@@ -1,4 +1,4 @@
-package bbc.pal
+package bbc.rhel
 
 import scala.concurrent.duration._
 
@@ -13,11 +13,11 @@ class Pal extends Simulation {
     .acceptEncodingHeader("gzip, deflate")
     .acceptLanguageHeader("en-gb,en;q=0.5")
     
-  val hpFeed = csv("pal/homepage_urls.txt").circular
-  val iPlayerFeed = csv("pal/iplayer_urls.txt").circular
-  val weatherFeed = csv("pal/weather_urls.txt").circular
-  val newsFeed = csv("pal/news_urls.txt").circular
-  val sportFeed = csv("pal/sport_urls.txt").circular
+  val hpFeed = csv("rhel/homepage_urls.txt").circular
+  val iPlayerFeed = csv("rhel/iplayer_urls.txt").circular
+  val weatherFeed = csv("rhel/weather_urls.txt").circular
+  val newsFeed = csv("rhel/news_urls.txt").circular
+  val sportFeed = csv("rhel/sport_urls.txt").circular
 
   val scn = scenario("Pal")
     .feed(hpFeed)
@@ -36,7 +36,7 @@ class Pal extends Simulation {
     .exec(http("Sport").get("${sport}").check(status.is(200)))
 
   setUp(scn.inject(
-    rampUsersPerSec(10) to(100) during(5 minutes),
-    constantUsersPerSec(10) during(5 minutes)
+    rampUsersPerSec(1) to(100) during(5 minutes),
+    constantUsersPerSec(100) during(5 minutes)
   ).protocols(httpProtocol))  
 }
