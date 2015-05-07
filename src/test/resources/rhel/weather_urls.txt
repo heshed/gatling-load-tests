@@ -1,0 +1,12 @@
+weather
+/weather/#blq-content
+/weather/#blq-local-nav
+/weather/
+/weather/?tempUnit=F
+/weather/?windUnit=K
+/weather/ga
+/weather/gd
+/weather/cy
+/weather/coast_and_sea
+/weather/#afterFlash
+/weather/contact_us
