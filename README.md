@@ -8,8 +8,8 @@ by the BBC Digital load-test team.
 
 ## Getting Started
 
-If you would like to run your own Gatling tests, I would suggest cloning
-the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
+Clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
+to begin running your own simulations. 
 
 ## Real-time metrics
 ### gatling.conf
