@@ -8,10 +8,8 @@ by the BBC Digital load-test team.
 
 ## Getting Started
 
-There is a command here that will automatically set-up a [basic Scala environment](https://github.com/aidylewis/basic-scala-env), then
-clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
-to begin running your own simulations. 
-
+To automatically set-up a basic Scala environment go to [this repo](https://github.com/aidylewis/basic-scala-env) and then
+clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo) to begin running your own simulations. 
 ## Real-time metrics
 ### gatling.conf
 ```
