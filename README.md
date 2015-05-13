@@ -8,7 +8,7 @@ by the BBC Digital load-test team.
 
 ## Getting Started
 
-This project will automically set-up a [basic Scala environment](https://github.com/aidylewis/basic-scala-env), then
+There is a command here that will automically set-up a [basic Scala environment](https://github.com/aidylewis/basic-scala-env), then
 clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
 to begin running your own simulations. 
 
