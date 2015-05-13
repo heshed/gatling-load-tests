@@ -1,16 +1,15 @@
 gatling-load-tests 
 ==================
 
-## Introduction
-
-### Description
+## Description
 
 This project contains [Gatling](http://gatling.io/#/) simulations used 
 by the BBC Digital load-test team. 
 
-### Getting Started
+## Getting Started
 
-Clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
+If you would like to run your own Gatling tests, I would suggest cloning
+the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
 
 ## Real-time metrics
 ### gatling.conf
