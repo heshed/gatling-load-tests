@@ -3,32 +3,14 @@ gatling-load-tests
 
 ## Introduction
 
-### [Gatling](http://gatling.io/)
+### Description
 
-Gatling is a Scala based open-source load test tool which makes a break from 
-traditional load tools by utilising asynchronous concurrency and 
-a DSL for scripting.
+This project contains [Gatling](http://gatling.io/#/) simulations used 
+by the BBC Digital load-test team. 
 
-### [SBT](http://www.scala-sbt.org/)
-SBT is the de-facto build tool for Scala projects.
+### Getting Started
 
-## Installation 
-### SBT
-```bash
-$ curl -s https://raw.githubusercontent.com/paulp/sbt-extras/master/sbt \
-    > /usr/local/bin/sbt && chmod 755 /usr/local/bin/sbt
-```
-
-### Test Resources
-```bash 
-$ git clone https://github.com/bbc/gatling-load-tests && cd gatling-load-tests
-```
-
-## Execution
-```bash
-$ sbt
-> testOnly bbc.kraftwerk.ComputerWorld
-```
+Clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
 
 ## Real-time metrics
 ### gatling.conf
