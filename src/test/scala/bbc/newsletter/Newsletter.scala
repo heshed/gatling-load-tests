@@ -62,8 +62,6 @@ class Newsletter extends Simulation {
 
   // journey A
   val signedInUserSubscribe = scenario("signedInUserSubscribe")
-    // populate cookieJar
-    .feed(CookieJarHelper.cookieJarFeeder)
     
     .exec(http("jumpToAgeConfirm").get("/newsletters/thenolanshow").check(substring("Please confirm your age")))
   
