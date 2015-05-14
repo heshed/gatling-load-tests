@@ -10,5 +10,5 @@ scalacOptions := Seq(
 
 javaOptions in Gatling := overrideDefaultJavaOptions("-Xms1G", "-Xmx12G", "-Djsse.enableSNIExtension=false", "-Dsun.net.inetaddr.ttl=0")
 
-libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.1.5" % "test"
-libraryDependencies += "io.gatling"            % "gatling-test-framework"    % "2.1.5" % "test"
+libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.1.6" % "test"
+libraryDependencies += "io.gatling"            % "gatling-test-framework"    % "2.1.6" % "test"
