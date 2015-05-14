@@ -1,17 +1,15 @@
 gatling-load-tests 
 ==================
 
-## Introduction
-
-### Description
+## Description
 
 This project contains [Gatling](http://gatling.io/#/) simulations used 
 by the BBC Digital load-test team. 
 
-### Getting Started
+## Getting Started
 
-Clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo)
-
+To automatically set-up a basic Scala environment go to [this repo](https://github.com/aidylewis/basic-scala-env) and then
+clone the [Gatling SBT plugin demo](https://github.com/gatling/gatling-sbt-plugin-demo) to begin running your own simulations. 
 ## Real-time metrics
 ### gatling.conf
 ```
@@ -27,6 +25,9 @@ graphite {
 ```
 
 ### Grafana/InfluxDB
+
+I would suggest running the Docker containers from [CoreOS](https://coreos.com/). 
+
 ```bash
 docker run -d -p 8081:8081 --name grafana aidylewis/grafana
 docker run -d \
