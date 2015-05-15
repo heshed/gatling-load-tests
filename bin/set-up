@@ -9,7 +9,6 @@ sh sbt-config
 sh vim-install-config
 sh graphite-install
 sh jvmtop-install
-sh jdk8-install
 
 echo "install netcat"
 sudo yum install -y nc.x86_64
