@@ -3,6 +3,7 @@
 # This is a set-up script for running Gatling on a BBC CentOS build.
 cd $(dirname $0)
 
+sh jdk8-install
 sh linux-tuning
 sh bash-config
 sh sbt-config
