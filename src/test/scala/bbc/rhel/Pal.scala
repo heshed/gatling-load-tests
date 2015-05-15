@@ -36,7 +36,7 @@ class Pal extends Simulation {
     .exec(http("Sport").get("${sport}").check(status.is(200)))
 
   setUp(scn.inject(
-    rampUsersPerSec(1) to(100) during(5 minutes),
-    constantUsersPerSec(100) during(5 minutes)
+    rampUsersPerSec(1) to(100) during(10 minutes),
+    constantUsersPerSec(100) during(10 minutes)
   ).protocols(httpProtocol))  
 }
