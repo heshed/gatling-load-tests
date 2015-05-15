@@ -3,13 +3,13 @@
 # This is a set-up script for running Gatling on a BBC CentOS build.
 cd $(dirname $0)
 
-sh jdk8-install
 sh linux-tuning
 sh bash-config
 sh sbt-config
 sh vim-install-config
 sh graphite-install
 sh jvmtop-install
+sh jdk8-install
 
 echo "install netcat"
 sudo yum install -y nc.x86_64
