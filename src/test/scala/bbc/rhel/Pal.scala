@@ -13,11 +13,11 @@ class Pal extends Simulation {
     .acceptEncodingHeader("gzip, deflate")
     .acceptLanguageHeader("en-gb,en;q=0.5")
     
-  val hpFeed = csv("rhel/homepage_urls.txt").circular
-  val iPlayerFeed = csv("rhel/iplayer_urls.txt").circular
-  val weatherFeed = csv("rhel/weather_urls.txt").circular
-  val newsFeed = csv("rhel/news_urls.txt").circular
-  val sportFeed = csv("rhel/sport_urls.txt").circular
+  val hpFeed = csv("rhel/homepage.txt").circular
+  val iPlayerFeed = csv("rhel/iplayer.txt").circular
+  val weatherFeed = csv("rhel/weather.txt").circular
+  val newsFeed = csv("rhel/news.txt").circular
+  val sportFeed = csv("rhel/sport.txt").circular
 
   val scn = scenario("Pal")
     .feed(hpFeed)
